@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+namespace: admin-area
+metadata:
+  name: admin-area
+data:
+  key: test
