@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: admin-area-depl
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: admin-area-depl
