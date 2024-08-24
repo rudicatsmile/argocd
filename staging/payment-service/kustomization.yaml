@@ -1,0 +1,7 @@
+resources:
+  - ../../base/backend
+
+patchesStrategicMerge:
+  - patch.yaml
+
+namespace: payment-service
